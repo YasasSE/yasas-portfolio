@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yasas Senanayake - Portfolio</title>
+  <style>
+    :root {
+      --primary-color: #007BFF;
+      --accent-color: #28a745;
+      --text-dark: #333;
+      --text-light: #fff;
+      --background-light: #f4f4f4;
+      --box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: var(--background-light);
+      color: var(--text-dark);
+    }
+    .profile-container {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .profile-container img {
+      width: 120px;
+      border-radius: 50%;
+      box-shadow: var(--box-shadow);
+      margin-bottom: 10px;
+    }
+    header {
+      background-color: var(--primary-color);
+      color: var(--text-light);
+      padding: 40px 20px 40px 180px;
+      text-align: left;
+      box-shadow: var(--box-shadow);
+    }
+    nav {
+      background-color: #e9ecef;
+      padding: 12px 0;
+      text-align: center;
+    }
+    nav a {
+      color: var(--primary-color);
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: var(--accent-color);
+    }
+    section {
+      padding: 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: var(--primary-color);
+      border-bottom: 2px solid var(--primary-color);
+      padding-bottom: 5px;
+    }
+    .project, .education, .certification, .activity, .reference {
+      background-color: #fff;
+      margin: 25px 0;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: var(--box-shadow);
+    }
+    ul {
+      padding-left: 20px;
+    }
+    footer {
+      background-color: var(--primary-color);
+      color: var(--text-light);
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    button {
+      background-color: var(--accent-color);
+      color: white;
+      padding: 10px 25px;
+      font-size: 16px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      margin-top: 10px;
+      transition: background 0.3s;
+    }
+    button:hover {
+      background-color: #1e7e34;
+    }
+    #message {
+      margin-top: 15px;
+      font-style: italic;
+      color: var(--primary-color);
+    }
+    a {
+      color: var(--primary-color);
+    }
+  </style>
+</head>
+<body>
+  <div class="profile-container">
+    <img src="your-photo.png" alt="Yasas Senanayake">
+  </div>
+
+  <header>
+    <h1>Yasas Senanayake</h1>
+    <p>Final Year ICT Undergraduate | Data Analyst Enthusiast | Chess Mentor</p>
+  </header>
+
+  <nav>
+    <a href="#about">About Me</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#activities">Extra-Curricular</a>
+    <a href="#references">References</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+  <h2>About Me</h2>
+  <div class="project">
+    <p>Motivated final-year ICT undergraduate with a strong interest in business intelligence and data analytics. Proficient in Python, SQL, Excel, and Power BI for data cleaning, visualization, and reporting. Passionate about using data insights to solve real-world problems and support smart decisions. Currently seeking a Data Analyst or Business Intelligence Analyst internship to apply and grow my skills in a real-world setting.</p>
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="project">
+    <ul>
+      <li>Python (Pandas, NumPy, Matplotlib, Seaborn)</li>
+      <li>MySQL, Web Scraping</li>
+      <li>Excel, Google Sheets, Power BI</li>
+      <li>Scikit-learn (Basic)</li>
+      <li>Computational Mathematics and Statistics</li>
+      <li>Analytical & Problem-Solving Skills</li>
+      <li>Communication, Presentation & Team Collaboration</li>
+    </ul>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="project">
+    <h3>HR Data Analysis - HR Domain [Power BI | Excel]</h3>
+    <p>Developed a Power BI dashboard to track employee metrics such as attendance, performance, and leave. Improved HR processes and efficiency.</p>
+  </div>
+  <div class="project">
+    <h3>Sales Insights – AtliQ Hardware [Power BI | SQL]</h3>
+    <p>Built an interactive dashboard to analyze sales trends using SQL and Power BI. Focused on data modeling, DAX calculations, and dashboard design.</p>
+  </div>
+  <div class="project">
+    <h3>Sales Analysis – Blinkit eCommerce Grocery [Excel]</h3>
+    <p>Created a dynamic Excel dashboard using pivot tables, slicers, and KPIs to analyze product performance and customer feedback.</p>
+  </div>
+</section>
+
+<section id="education">
+  <h2>Education</h2>
+  <div class="education">
+    <p><strong>2021 – Present:</strong> Bachelor of Information & Communication Technology (Hons), Faculty of Technology, Rajarata University of Sri Lanka</p>
+    <p><strong>2019:</strong> G.C.E. A/L – Passed with 3C passes in Technology stream</p>
+  </div>
+</section>
+
+<section id="certifications">
+  <h2>Certifications</h2>
+  <div class="certification">
+    <ul>
+      <li>Introduction to Data Analytics – Simplilearn</li>
+      <li>Business Intelligence Fundamentals – Simplilearn</li>
+      <li>Business Analytics with Excel – Simplilearn</li>
+      <li>Power BI for Beginners – Simplilearn</li>
+      <li>Excel Dashboard for Beginners – Simplilearn</li>
+      <li>SQL for Data Analysts and BI – Udemy</li>
+    </ul>
+  </div>
+</section>
+
+<section id="activities">
+  <h2>Extra-Curricular Activities</h2>
+  <div class="activity">
+    <ul>
+  <li>
+    <strong>Chess Team Member</strong> <em>Faculty of Technology, Rajarata University of Sri Lanka</em> [2022 - 2025]<br>
+    Represented the faculty in university-level chess tournaments, enhancing strategic thinking and collaboration skills.
+    <ul>
+      <li><strong>Champions</strong>, Inter-Faculty Sports Tournament 2025, Rajarata University of Sri Lanka</li>
+      <li><strong>First Runners-Up</strong>, Inter-Faculty Freshers' Tournament 2024, Rajarata University of Sri Lanka</li>
+    </ul>
+  </li>
+
+  <li>
+    <strong>Founding Member & Mentor</strong>, <em>Pedon Chess Society, Faculty of Technology</em> [since 2025]<br>
+    Contributed to forming the chess society and currently mentor junior members to promote chess culture and skill development.
+  </li>
+
+  <li>
+    <strong>Member of Association of Technology IT (ATIT)</strong>, Rajarata University of Sri Lanka [since 2023]
+  </li>
+
+  <li>
+    <strong>Member of Rajarata University Chess Club</strong> [since 2024]
+  </li>
+</ul>
+
+  </div>
+</section>
+
+<section id="references">
+  <h2>References</h2>
+  <div class="reference">
+    <p><strong>Husni Mohamed</strong><br>
+    Lecturer, Department of Information Communication Technology<br>
+    Faculty of Technology, Rajarata University of Sri Lanka<br>
+    Email: <a href="mailto:Hmohamed@tech.rjt.ac.lk">Hmohamed@tech.rjt.ac.lk</a><br>
+    Phone: +94 76 638 3023</p>
+
+    <p><strong>Malki Jayawardhana</strong><br>
+    Temporary Lecturer, Department of Information Communication Technology<br>
+    Faculty of Technology, Rajarata University of Sri Lanka<br>
+    Email: <a href="mailto:msjayawa@tec.rjt.ac.lk">msjayawa@tec.rjt.ac.lk</a><br>
+    Phone: +94 71 270 9389</p>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Me</h2>
+  <div class="project">
+    <p>Email: <a href="mailto:yasassenanayake0@gmail.com">yasassenanayake0@gmail.com</a></p>
+    <p>Phone: +94 77 289 4218</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/yasas-se/" target="_blank">linkedin.com/in/yasas-se</a></p>
+    <button onclick="showMessage()">Say Hello</button>
+    <p id="message"></p>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2025 Yasas Senanayake. All rights reserved.</p>
+</footer>
+
+<script>
+  function showMessage() {
+    document.getElementById("message").textContent = "Thanks for visiting my portfolio!";
+  }
+</script>
+</body>
+</html>
