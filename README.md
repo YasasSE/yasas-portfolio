@@ -11,7 +11,4 @@ This website is built using **HTML** and **CSS** to showcase my:
 - References
 - Contact Information
 
-## 🌐 Live Preview
-You can view the website here:  
-[https://your-username.github.io/yasas-portfolio](https://your-username.github.io/yasas-portfolio)
 
